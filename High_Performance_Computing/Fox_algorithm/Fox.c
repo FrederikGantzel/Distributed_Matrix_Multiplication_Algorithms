@@ -159,7 +159,7 @@ int main(int argc, char **argv) {
 
   //printing for verification
 
-  if (my_rank == 7) {
+  if (my_rank == 0) {
     printf("Rank %d has:\n", my_rank);
     for (int i=0; i<LMS; i++) {
       for (int j=0; j<LMS; j++) {
