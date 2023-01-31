@@ -1,7 +1,7 @@
 # Distributed_Matrix_Multiplication_Algorithms
 Final project for the course CS599 - "High Performance Computing", NAU Spring Semester 2021
 
-This is probably my favorite course I took at NAU, and this final project is a big part of what made it so enjoyable.
+This is probably my favorite course I took at NAU, and this final project is a big part of what made it so enjoyable. Big thanks to Dr. Gowanlock for some great assignments.
 
 ## Installation
 Download the "High_Performance_Computing" folder. To run a program, set the directory to the location of that specific program, and refer to the README file of that program for instructions about how to compile and run.
