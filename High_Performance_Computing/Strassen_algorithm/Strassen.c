@@ -64,12 +64,12 @@ int main(int argc, char **argv) {
   if (my_rank == 0) {
     printf("\nMultiplying %d x %d matrix A, which contains all 1's, and %d x %d matrix B; which contains all 2's\n", n, n, n, n);
 
-    /*for (int i=0; i<n; i++) { //prints the resulting matrix, do not do this for large matrix sizes
+    for (int i=0; i<n; i++) { //prints the resulting matrix, do not do this for large matrix sizes
       for (int j=0; j<n; j++) {
         printf("%d ", matrixC[i][j]);
       }
       printf("\n");
-    } */
+    }
 
     printf("Total time to multiply: %f (s)\n\n", multiplicationEnd - multiplicationStart);
   }
