@@ -31,7 +31,7 @@ The Cannon Algorithm works much like the Fox algorithm, but rotates the blocks o
 Does not use distributed memory, but rather uses a mathematical trick to recude the number of calculations needed for matrix multiplication. This is kind of a "bonus" algorithm, and it is not relevant to, nor do I even mention it in the project report.
 
 ## Some technical stuff
-As the focuses of the programs are the algoror all the algorithms themselves, the matrices being multiplied are gerenated in the program (matrix A containing all 1's, and matrix B containing all 2's, and thus none of the programs take a matrix as input.
+As the focuses of the programs are the algorithms themselves, the matrices being multiplied are gerenated in the program (matrix A containing all 1's, and matrix B containing all 2's, and thus none of the programs take a matrix as input.
 
 For verification, the distributed mempory algorithms output just a single block of the resulting matrix, while the non-distributed memory algorithms output the whole resulting matrix.
 
